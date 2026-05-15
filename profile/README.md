@@ -29,7 +29,6 @@ The goal is simple:
 Endurance-focused quadcopter based on CubePilot and ArduPilot.
 
 - S500 frame
-- CubePilot flight controller
 - RFD900 telemetry
 - Long-range mission planning and tuning
 
@@ -57,7 +56,6 @@ A Home Assistant–based smart home ecosystem.
 - Raspberry Pi
 - Arduino
 - ESP32
-- CubePilot
 - RC systems
 
 ### Software
@@ -91,7 +89,6 @@ Projects are developed using an iterative engineering approach:
 - Completing Rover-001b
 - Expanding Project Vapor
 - Publishing technical documentation
-- Growing VaporWareLabs.org
 
 ---
 
