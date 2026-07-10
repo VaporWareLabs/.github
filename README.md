@@ -49,6 +49,22 @@ Current focus:
 
 ---
 
+### 🖥️ vaporCORE
+
+The self-hosted infrastructure platform supporting VaporWare Labs.
+
+vaporCORE currently provides:
+
+- Proxmox virtualization
+- Ubuntu virtual machines
+- Local DNS and mDNS access
+- Tailscale remote connectivity
+- Development and test environments
+- Hosting for vaporAI, vaporCAM, and supporting services
+- Snapshots and infrastructure experiments
+
+---
+
 ### 🧠 vaporAI
 
 A private, self-hosted artificial-intelligence platform running on VaporWare Labs infrastructure.
@@ -105,22 +121,6 @@ The project applies an engineering mindset to food:
 - Preserve the version history
 
 Initial recipes include VaporWare Labs Black Pepper Pineapple Chicken Fried Rice.
-
----
-
-### 🖥️ vaporCORE
-
-The self-hosted infrastructure platform supporting VaporWare Labs.
-
-vaporCORE currently provides:
-
-- Proxmox virtualization
-- Ubuntu virtual machines
-- Local DNS and mDNS access
-- Tailscale remote connectivity
-- Development and test environments
-- Hosting for vaporAI, vaporCAM, and supporting services
-- Snapshots and infrastructure experiments
 
 ---
 
@@ -185,58 +185,27 @@ These remain long-term concepts rather than current development priorities.
 
 ## Technology Stack
 
-### Software
+---
 
-- Python
-- Django
-- FastAPI
-- C and C++
-- JavaScript
-- HTML and CSS
-- Bootstrap
-- SQLite
-- Git
-- GitHub and Gitea
+| **Software** | **Artificial Intelligence** | **Hardware** | **Infrastructure** |
+|--------------|-----------------------------|--------------|--------------------|
+| Python | Ollama | Raspberry Pi | Ubuntu Server |
+| C++ | Open WebUI | Arduino | Linux |
+| Django | Local LLMs | ESP32 | Proxmox |
+| FastAPI | Retrieval-Augmented Generation (RAG) | STM32 | Docker |
+| JavaScript | Markdown Knowledge Repositories | RC Systems | Gunicorn |
+| Bootstrap | AI Prompt Engineering |  | Nginx |
+| ESPHome | Local AI Inference | | systemd |
+| Home Assistant | | | Tailscale |
+| Gitea | | | |
+| SQLite | | | |
 
-### AI and Data
-
-- Ollama
-- Open WebUI
-- Local language models
-- Retrieval-Augmented Generation
-- Markdown knowledge repositories
-- Jira integrations
-- Excel import and export
-
-### Infrastructure
-
-- Linux
-- Ubuntu Server
-- Proxmox
-- Docker
-- Gunicorn
-- Nginx
-- systemd
-- Tailscale
-- Raspberry Pi
-
-### Robotics and Embedded Systems
-
-- Arduino
-- ESP32
-- STM32
-- CubePilot
-- ArduPilot
-- MAVLink
-- RC systems
-- Cameras and computer vision
-
-### Mechanical Design
-
-- SolidWorks
-- 3D printing
-- 2020 aluminum extrusion
-- Prototype fabrication
+| **Robotics & Control** | **Mechanical Design** |
+|------------------------|-----------------------|
+| ArduPilot | SolidWorks | 
+| MAVLink | 3D Printing | 
+| PX4 *(future)* | 2020 Aluminum Extrusion | 
+| Computer Vision | CAD Prototyping | 
 
 ---
 
